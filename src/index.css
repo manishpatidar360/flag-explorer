@@ -87,24 +87,31 @@ margin-inline: 110px;
 }
 .countryimg{
   width: 100%;
-  max-width: 600px;
-  height: auto;
+  max-width: 600px; /* Keeps the image from getting too large */
+  height: auto; /* Keeps aspect ratio */
   overflow: hidden;
   display: flex;
   justify-content: center;
+  align-items: center;
+
 }
 .countryimg img{
-  width: 100%;
-  height: 100%;
-  max-height: 350px;
-  object-fit: contain; 
+  width: 100%; /* Makes the image responsive */
+  height: auto; /* Maintains aspect ratio */
+  object-fit: cover;
 }
 main{
   min-height: 100vh;
 }
 .maincontainer{
-  height: 95vh;
+  /* height: 95vh;
   display: flex;
+  padding: 100px; */
+  
+  height: 95vh;
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
   padding: 100px;
 }
 div.darkModee{
