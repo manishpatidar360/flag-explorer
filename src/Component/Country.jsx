@@ -53,7 +53,7 @@ export default function Country() {
    {/* <Link onClick={()=> history.back()} className='back'> ⬅️BACK </Link> */}
    <div className={`maincontainer ${theme=== "Dark Mode" ? "darkModee": ""}`}>
    <div className='countryimg'>
-    <img src={dATA.url} />
+    <img src={dATA.url} className="img-fluid"/>
    </div>
    <div className='content'>
     <h1>{dATA.NAME}</h1>

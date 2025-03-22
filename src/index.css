@@ -86,14 +86,18 @@ margin-inline: 110px;
   box-shadow: 0 2px 16px 0px rgba(0, 0, 0, 0.2);
 }
 .countryimg{
-width: 600px;
-height: 350px;
-overflow: hidden;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 .countryimg img{
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  max-height: 350px;
+  object-fit: contain; 
 }
 main{
   min-height: 100vh;
