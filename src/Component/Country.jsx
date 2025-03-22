@@ -1,8 +1,8 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { Link, useLocation, useOutletContext, useParams } from 'react-router-dom';
-import Shimarcomponent from './Shimarcomponent';
-import ShimarEffect from './ShimarEffect';
-import { themeContexts } from '../contexts/ThemeContexts';
+import Shimarcomponent from './Shimarcomponent.jsx';
+import ShimarEffect from './ShimarEffect.jsx';
+import { themeContexts } from '../contexts/ThemeContexts.js';
 
 export default function Country() {
     const [dATA, setDATA ]=useState(null)

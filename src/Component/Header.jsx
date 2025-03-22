@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react'
-import { themeContexts } from '../contexts/ThemeContexts';
-import Search from './Search';
+import { themeContexts } from '../contexts/ThemeContexts.js';
+import Search from './Search.jsx';
 
 export default function Header() {
   const [mode , setMode]=useContext(themeContexts)

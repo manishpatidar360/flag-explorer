@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import Card from './Card'
-import ShimarEffect from './shimarEffect'
+import ShimarEffect from './ShimarEffect.jsx'
 // import Flag from "../flag";
 
 
