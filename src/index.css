@@ -1,0 +1,139 @@
+body{
+  --background-color: white;
+  --text-color: black;
+  --element-color: white;
+ margin: 0px;
+
+}
+.darkModee{
+  --background-color: hsl(207, 26%, 17%);
+  --text-color: white;
+  --element-color: hsl(209, 23%, 22%);
+}
+* {
+box-sizing: border-box;  
+}
+.header{
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 24px;
+  
+}
+.headerContainer{
+  position: fixed;
+  width: 100%;
+  height: 90px;
+  inset: 0px;
+  
+  box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.2);
+  
+  z-index: 1000;
+  backdrop-filter: blur(10px); 
+  background-color: rgba(255, 255, 255, 0.7); 
+}
+
+header.darkModee{
+  background-color: var(--element-color);
+  color: var(--text-color);
+}
+.darkMode{
+  border: 2px solid blueviolet;
+  padding: 10px;
+
+}
+.anchoreTage{
+  display: inline-block;
+  width: 250px;
+  border-radius: 12px;
+  box-shadow: 0 0px 8px 0px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in-out;
+  background-color: var(--element-color);
+  text-decoration: none;
+  color: inherit;
+  overflow: hidden;
+ 
+
+}
+
+.countriesContainer{
+ display: flex;
+ /* margin-inline: auto; */
+ justify-content: center;
+ flex-wrap: wrap;
+ gap: 16px;
+ margin: 30px;
+}
+
+.anchoreTage img{
+  width: 100%;
+}
+.inputeSearch{
+  height: 30px;
+  box-shadow: 0 0px 8px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+.inputeSearch{
+margin: 30px;
+margin-inline: 110px;
+}
+.anchoreTage:hover{
+  transform: scale(1.05);
+  box-shadow: 0 2px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.countryimg{
+width: 600px;
+height: 350px;
+overflow: hidden;
+}
+.countryimg img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+main{
+  min-height: 100vh;
+}
+.maincontainer{
+  height: 95vh;
+  display: flex;
+  padding: 100px;
+}
+div.darkModee{
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+main.darkModee{
+background-color: var(--background-color);
+color: var(--text-color);
+}
+.content{
+  margin-left: 50px ;
+}
+.back{
+  text-decoration: none;
+  position: absolute;
+  left: 1px;
+  top: 10px;
+  color: inherit;
+  padding: 4px  12px 12px 12px;
+  background-color: rgb(157, 152, 152);
+  box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.2);
+  margin-top: 100px;
+  margin-right: 200px;
+}
+.divSearch{
+  margin-top:90px;
+}
+.shimar{
+  height: 333px;
+  background-color: #ccc;
+}
+.Shimarcomponent{
+  width: 600px;
+  background-color: #ccc;
+}
