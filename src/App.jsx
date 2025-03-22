@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Card from "./Component/Card";
-import Container from "./Component/container";
+import Container from "./Component/Container";
 import Header from "./Component/Header";
 import Search from "./Component/Search";
 import './index.css'
